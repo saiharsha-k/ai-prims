@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "aiprims"
-version = "0.0.1"
+version = "0.1.0"
 description = "Foundational execution primitives for AI, ML, and data systems"
 readme = "README.md"
 license = { text = "MIT" }
@@ -28,7 +28,9 @@ classifiers = [
   "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "rfc8785>=0.1.0"
+]
 
 [project.urls]
 Homepage = "https://github.com/saiharsha-k/ai-prims"
